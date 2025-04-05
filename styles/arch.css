@@ -6,4 +6,157 @@
     font-weight: 400;
     font-style: normal;
   }
+  .text-gray{
+    color: #424242;
+  }
+  .text-light-gray{
+   color: #131313;
+
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1) ;
+  }
+  .display-flex{
+    display: flex;
+  }
+  main{
+  max-width: 1440px;
+  margin: 0 auto;  
+
+}
+
+main > section {
+  margin-top: 130px;
+}
+  .nav-item{
+ list-style:  none;
+ margin-right: 30px;
+  }
+  .brand{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+.banner-title{
+ text-align: center;
   
+}
+.btn-primary{
+background-color:rgba(255, 144, 14, 1) ;
+color: white;
+padding: 20px 25px;
+font-size: 1.25rem;
+font-weight: 600;
+border-radius: 8px;
+border: none;
+}
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+img{
+  height: 140;
+  width:440; 
+}
+  .nav-link{
+    text-decoration: none;
+    font-size: 500;
+  }
+  .navbar, .banner{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .brand{
+    color: #131313;
+  }
+  .banner-image{
+width: 100%;
+  }
+  .teams{
+    align-items: center;
+  }
+
+  .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features {
+  margin-left: 130px;
+  max-width: 530px;
+  
+}
+.our{
+  font-size: 2.8rem;
+}
+#quick{
+  font-weight: 500;
+  color: #A1A1A1;
+}
+#fea
+{
+  color: rgba(255, 144, 14, 1);
+}
+
+.Enjoy{
+  width: 1435;
+  height: 1059;
+}
+
+.mobile{
+ background-color: azure;
+  width: 586;
+  height: 216;
+  margin-left: 15px;
+  font-size: medium;
+}
+
+.image-folder{
+ width: auto;
+}
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ 
+}
+.facts{
+  border: 1px solid orange;
+  width: 240px;
+ height: 240px;
+ border-radius: 8px;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+}
+
+.fact-number{
+ font-size: 2.8rem;
+ font-weight: 600;
+ margin-top: 5px;
+ margin-bottom: 10px;
+}
+.fact-name{
+  font: size 2 rem; 
+  font-weight: 600;
+  margin-top: 10px;
+  color: #727272;
+}
+
+  @media screen and(max-width: 576px){
+    .navbar,.nav-links ,.teams{
+      flex-direction: column;
+    }
+
+    .team-img-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .our-features{
+      margin-left: 15px;
+    }
+  }
